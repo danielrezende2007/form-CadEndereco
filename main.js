@@ -19,7 +19,7 @@ const cepValido = (cep) => cep.length == 8 && eNumero(cep);
 //Função para preencher campos relacionados ao cep
 const preencherFotmulario = (endereco) =>{
     document.getElementById("logradouro").value = endereco.logradouro;
-    document.getElementById("bairro").value = endereco.logradouro;
-    document.getElementById("localidade").value = endereco.logradouro;
-    document.getElementById("uf").value = endereco.logradouro;
+    document.getElementById("bairro").value = endereco.bairro;
+    document.getElementById("localidade").value = endereco.localidade;
+    document.getElementById("uf").value = endereco.uf;
 }
