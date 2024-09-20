@@ -10,4 +10,4 @@ Esse codigo serve para verificar se o cep esta constado como válido ou se o cep
 Verificar se o cep é só feito por número
 
 ## Função para preencher campos relacionados ao cep
-Esse código serve para prencher os campos do atraves do cep automaticamente
+Esse código serve para preencher os campos do atráves do cep automaticamente
